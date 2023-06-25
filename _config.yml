@@ -102,4 +102,7 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: "git"
+  repository:
+    github: https://github.com/hongchun101/hongchun101.github.io.git
+    branch: master
